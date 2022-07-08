@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { Fragment } from 'react'
+import Signup from './Signup'
+
+let isAccount = false
 
 const MainView = () => {
-    return <div>MainView</div>;
-};
+    return <>{isAccount ? <div>Tiktoks will go here</div> : <Signup />}</>
+}
 
-export default MainView;
+export default MainView

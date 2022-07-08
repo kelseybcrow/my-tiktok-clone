@@ -8,7 +8,11 @@ function MyApp({ Component, pageProps }) {
         () => import('../context/WalletConnectionProvider'),
         { ssr: false }
     )
-    return <Component {...pageProps} />
+    return (
+        <WalletConnectionProvider>
+            <Component {...pageProps} />
+        </WalletConnectionProvider>
+    )
 }
 
 export default MyApp
