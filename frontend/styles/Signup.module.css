@@ -1,6 +1,6 @@
 .authContainer {
     background-color: white;
-    /* min-width: 25rem;
+    min-width: 25rem;
     min-height: 20rem;
     display: flex;
     flex-direction: column;
@@ -8,10 +8,10 @@
     align-items: center;
     padding: 1.2rem;
     align-items: center;
-    border-radius: 1rem; */
+    border-radius: 1rem;
 }
 
-/* .title {
+.title {
     font-weight: bolder;
     font-size: 1.5rem;
     margin: 1.5rem 0 3rem 0;
@@ -68,4 +68,4 @@
 
 .loginButton:active {
     transform: scale(0.9);
-} */
+}
