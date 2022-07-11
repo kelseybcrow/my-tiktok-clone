@@ -1,8 +1,10 @@
 import React from 'react'
 import { useState } from 'react'
 import styles from '../styles/Signup.module.css'
+import { useState } from 'react'
 
-const Signup = () => {
+const Signup = ({ signup }) => {
+    signup
     const [username, setUserName] = useState('')
     const [profile, setProfile] = useState('')
 
