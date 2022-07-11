@@ -32,6 +32,9 @@ const useAccount = () => {
                 ...defaultAccounts,
             },
         })
+        console.log('USER IS SIGNED UP')
     }
     return { signup }
 }
+
+export default useAccount
